@@ -17,6 +17,11 @@ header {
 	position: fixed;
 	width:100%;
 	border-bottom: 1px solid rgba(0,0,0,0.15);
+	display: inline;
+}
+
+#nav-container{
+	float: left;
 }
 
 #header-logo{
@@ -54,6 +59,44 @@ header {
 
 #me-icon{
 	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png') -117px -49px;
+}
+
+#search-container{
+	float:right;
+}
+
+#search{
+	box-sizing: border-box;
+	height: 32px;
+	line-height: 1;
+	color: #66757f;
+	background-color: #ccd6dd;
+	border-radius: 21px;
+}
+
+#search-query{
+color: #FFF;
+border: 0;
+background-color: transparent;
+border-radius: 21px;
+width: 100%;
+height: 32px;
+padding: 5px 27px 6px 12px;
+font-size: 12px;
+opacity: 0.6;
+background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+}
+
+#search-icon{
+	width:26px;
+	height:26px;
+	border: 0; 
+	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png')-55px -700px;
+	cursor: pointer;
+	position: absolute;
+top: 4px;
+right: -3px;
+
 }
 
 /*body*/
