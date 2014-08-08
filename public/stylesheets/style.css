@@ -8,14 +8,55 @@ body{
 	margin: 0px;
 }
 
+/*nav bar*/
+
 header {
 	height:46px;
 	background-color: white;
 	margin-top: 0px;
 	position: fixed;
 	width:100%;
-
+	border-bottom: 1px solid rgba(0,0,0,0.15);
 }
+
+#header-logo{
+	height: 21px;
+	width: 24px;
+	position: fixed;
+	top: 3%;
+	left: 50%;
+	margin-left: 12px;
+}
+
+#nav-container ul li{
+	display: inline;
+	list-style: none;
+}
+
+#nav-container .icon{
+	width: 23px;
+	height: 23px;
+	position: relative;
+	display: inline-block;
+}
+
+#home-icon{
+	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png') 0 -49px;
+}
+
+#notifications-icon{
+	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png') -120px -554px;
+}
+
+#discover-icon{
+	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png') -35px -49px;
+}
+
+#me-icon{
+	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png') -117px -49px;
+}
+
+/*body*/
 
 #content {
 	padding: 46px;
@@ -23,45 +64,52 @@ header {
 }
 
 #dashboard-left {
-	width: 25%;
+	width: 290px;
 	float: left;
 	
 }
 
 #profile-info {
+	border-radius: 6px;
 	background-color: white;
 	padding: 10px;
 	margin: 10px;
 }
 
 #trends {
+	border-radius: 6px;
 	background-color: white;
 	padding: 10px;
 	margin: 10px;
 }
 
 #main-container{
+	border-radius: 6px;
 	background-color: white;
-	width: 50%;
-	display: inline-block;
-	margin-top: 10px;
+	width: 590px;
+	float:left;
+	margin: 9px;
 }
 
 #dashboard-right{
-	width: 20%;
+	width: 290px;
 	float: right;
 }
 
 #recommended-followers{
+	border-radius: 6px;
 	background-color: white;
 	padding: 10px;
 	margin: 10px;
 }
 
 #ts-and-cs{
+	border-radius: 6px;
 	background-color: white;
 	padding: 10px;
 	margin: 10px;
 }
+
+
 
 
