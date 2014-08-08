@@ -1,0 +1,67 @@
+body{
+	background-image: url("https://abs.twimg.com/images/themes/theme1/bg.png");
+	background-position: left 40px;
+	background-attachment: fixed;
+	background-repeat:	repeat;
+	background-repeat: no-repeat;
+	background-color:  #C0DEED;
+	margin: 0px;
+}
+
+header {
+	height:46px;
+	background-color: white;
+	margin-top: 0px;
+	position: fixed;
+	width:100%;
+
+}
+
+#content {
+	padding: 46px;
+	padding-top: 52px;
+}
+
+#dashboard-left {
+	width: 25%;
+	float: left;
+	
+}
+
+#profile-info {
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+}
+
+#trends {
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+}
+
+#main-container{
+	background-color: white;
+	width: 50%;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#dashboard-right{
+	width: 20%;
+	float: right;
+}
+
+#recommended-followers{
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+}
+
+#ts-and-cs{
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+}
+
+
