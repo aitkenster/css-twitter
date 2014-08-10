@@ -6,152 +6,27 @@ body{
 	background-repeat: no-repeat;
 	background-color:  #C0DEED;
 	margin: 0px;
+	font-family: helvetica, sans-serif;
+	color: #292f33;
 }
-
-/*nav bar*/
-
-header {
-	height:46px;
-	background-color: white;
-	margin-top: 0px;
-	position: fixed;
-	width:100%;
-	border-bottom: 1px solid rgba(0,0,0,0.15);
-	display: inline;
-}
-
-#nav-container{
-	float: left;
-}
-
-#header-logo{
-	height: 21px;
-	width: 24px;
-	position: fixed;
-	top: 3%;
-	left: 50%;
-	margin-left: 12px;
-}
-
-#nav-container ul li{
-	display: inline;
-	list-style: none;
-}
-
-#nav-container .icon{
-	width: 23px;
-	height: 23px;
-	position: relative;
-	display: inline-block;
-}
-
-#home-icon{
-	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png') 0 -49px;
-}
-
-#notifications-icon{
-	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png') -120px -554px;
-}
-
-#discover-icon{
-	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png') -35px -49px;
-}
-
-#me-icon{
-	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png') -117px -49px;
-}
-
-#search-container{
-	float:right;
-}
-
-#search{
-	box-sizing: border-box;
-	height: 32px;
-	line-height: 1;
-	color: #66757f;
-	background-color: #ccd6dd;
-	border-radius: 21px;
-}
-
-#search-query{
-color: #FFF;
-border: 0;
-background-color: transparent;
-border-radius: 21px;
-width: 100%;
-height: 32px;
-padding: 5px 27px 6px 12px;
-font-size: 12px;
-opacity: 0.6;
-background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
-}
-
-#search-icon{
-	width:26px;
-	height:26px;
-	border: 0; 
-	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png')-55px -700px;
-	cursor: pointer;
-	position: absolute;
-top: 4px;
-right: -3px;
-
-}
-
-/*body*/
 
 #content {
 	padding: 46px;
 	padding-top: 52px;
 }
 
-#dashboard-left {
-	width: 290px;
-	float: left;
-	
-}
 
-#profile-info {
-	border-radius: 6px;
-	background-color: white;
-	padding: 10px;
-	margin: 10px;
-}
-
-#trends {
-	border-radius: 6px;
-	background-color: white;
-	padding: 10px;
-	margin: 10px;
-}
-
-#main-container{
-	border-radius: 6px;
-	background-color: white;
-	width: 590px;
-	float:left;
+.box{
 	margin: 9px;
+	border: 1px solid #e1e8ed;
 }
 
-#dashboard-right{
-	width: 290px;
-	float: right;
+h2{
+	color: #66757f;
+	font-size: 22px;
+	font-weight: 300;
 }
 
-#recommended-followers{
-	border-radius: 6px;
-	background-color: white;
-	padding: 10px;
-	margin: 10px;
-}
-
-#ts-and-cs{
-	border-radius: 6px;
-	background-color: white;
-	padding: 10px;
-	margin: 10px;
-}
 
 
 

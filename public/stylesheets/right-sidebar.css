@@ -1,0 +1,94 @@
+#dashboard-right{
+	width: 283px;
+	float: right;
+}
+
+#recommended-followers{
+	border-radius: 6px;
+	background-color: white;
+	padding: 13px;
+	margin: 10px;
+}
+
+#recommended-followers a{
+	text-decoration: none;
+}
+
+#wtf-header{
+	font-size: 13px;
+}
+
+#wtf-header h2{
+	display: inline;
+}
+
+#wtf-content{
+	border-bottom: 1px solid #e1e8ed;
+	border-radius: 5px 5px 0 0;
+}
+
+#wtf-list{
+	padding:0px;
+}
+
+#wtf-list li{
+	list-style: none;
+	color: #66757f;
+	font-size: 14px;
+}
+
+#wtf-list strong{
+	color:black;
+}
+
+#wtf-content .avater{
+	width: 48px;
+	height: 48px;
+	border-radius: 5px;
+	float:left;
+	padding-right: 5px;
+}
+
+.follow-button{
+	margin: 9px;
+	border: 1px solid #e1e8ed;
+	width: 84px;
+	height: 30px;
+	border-radius: 5px;
+	background-image: linear-gradient(#fff,#f5f8fa);
+	position: relative;
+	top: -4px;
+	left: 11px;
+	padding:5px;
+	display: inline-block;
+}
+
+.follow-icon{
+	display: inline-block;
+	float:left;
+	height:30px;
+	width:30px;
+	display: inline-block;
+	float: left;
+	background:url("https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png")-112px -106px;
+}
+
+#wtf-footer{
+	font-size: 12px;
+	padding: 5px;
+}
+
+
+#ts-and-cs{
+	border-radius: 6px;
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+}
+
+#ts-and-cs a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #66757f;
+
+}

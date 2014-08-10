@@ -1,0 +1,125 @@
+
+#nav-container{
+	float: left;
+}
+
+#header-logo{
+	height: 21px;
+	width: 24px;
+	position: fixed;
+	top: 3%;
+	left: 50%;
+	margin-left: 12px;
+}
+
+#nav-container ul li{
+	display: inline;
+	list-style: none;
+}
+
+#nav-container .icon{
+	width: 23px;
+	height: 23px;
+	position: relative;
+	display: inline-block;
+}
+
+#home-icon{
+	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png') 0 -49px;
+}
+
+#notifications-icon{
+	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png') -120px -554px;
+}
+
+#discover-icon{
+	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png') -35px -49px;
+}
+
+#me-icon{
+	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png') -117px -49px;
+}
+
+#search-container{
+	float:right;
+	padding: 7px;
+	display: inline-block;
+}
+
+#search{
+	box-sizing: border-box;
+	height: 32px;
+	line-height: 1;
+	color: #66757f;
+	background-color: #a3acb2;
+	border-radius: 21px;
+	float:left;
+}
+
+#search-query{
+color: #FFF;
+border: 0;
+background-color: transparent;
+border-radius: 21px;
+width: 100%;
+height: 32px;
+padding: 5px 27px 6px 12px;
+font-size: 12px;
+opacity: 0.6;
+background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+}
+
+#search-icon{
+	width:26px;
+	height:26px;
+	border: 0; 
+	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png')-55px -700px;
+	cursor: pointer;
+	position: relative;
+	top: -40px;
+	right: -150px;
+
+}
+
+header {
+	height:46px;
+	background-color: white;
+	margin-top: 0px;
+	position: fixed;
+	width:100%;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	display: inline;
+	z-index: 9999;
+	color:#66757f;
+}
+
+
+#admin-icons{
+	float: right;
+}
+
+#admin-icons .icon{
+	width: 23px;
+	height: 23px;
+	position: relative;
+}
+
+#admin-list li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#admin-dms{
+	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png') -85px -880px;
+}
+
+#admin-settings{
+	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png') -160px -50px;;
+}
+
+#admin-tweet{
+	background:url('https://abs.twimg.com/a/1407438973/img/t1/twitter_web_sprite_icons.png') -198px -50px;
+	background-color: #a3acb2;
+}
