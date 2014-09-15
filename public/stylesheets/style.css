@@ -10,10 +10,17 @@ body{
 	color: #292f33;
 }
 
+
+
+
+/*body*/
+
+
 #content {
 	padding: 46px;
 	padding-top: 52px;
 }
+
 
 
 .box{
@@ -25,7 +32,9 @@ h2{
 	color: #66757f;
 	font-size: 22px;
 	font-weight: 300;
-}
+
+
+
 
 
 
