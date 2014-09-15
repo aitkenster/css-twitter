@@ -17,6 +17,15 @@
 	list-style: none;
 }
 
+#nav-container a{
+	text-decoration: none;
+	color: #66757f;
+}
+
+#nav-container a:hover{
+	border-bottom-color: #002B99;
+}
+
 #nav-container .icon{
 	width: 23px;
 	height: 23px;
